@@ -1,6 +1,7 @@
 name: Build_NanoPi_R4S
 
 on: 
+  workflow_dispatch:
   release:
     types: [published]
 
